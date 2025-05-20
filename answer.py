@@ -218,21 +218,3 @@ elif (user == 1 and com == 3) or (user == 2 and com == 1) or (user == 3 and com 
     print("이겼습니다!")
 else:
     print("졌습니다.")
-
-# 문제 19
-# 문자열을 입력받고, 글자 수를 출력하세요.
-# 힌트: input(), len()
-text = input("문자열을 입력하세요: ")
-print("글자 수:", len(text))
-
-# 문제 20
-# 숫자를 입력받고, 각 자릿수의 합을 구하세요.
-# 예: 123 → 1+2+3 = 6
-# 힌트: input(), while, 문자열 인덱싱 또는 정수 나눗셈
-num = input("숫자를 입력하세요: ")
-i = 0
-total = 0
-while i < len(num):
-    total += int(num[i])
-    i += 1
-print("자릿수의 합:", total)
